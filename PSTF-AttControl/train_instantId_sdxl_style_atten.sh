@@ -10,11 +10,11 @@ export CONTROLNET_NAME='models/models--InstantX--InstantID/ControlNetModel'
 # Dataset
 export ROOT_DATA_DIR="/"
 # This json file ' format:
-# {"file_name": "/data/train_data/images_part0/84634599103.jpg", "additional_feature": "myolv1,a man with glasses and a
-# tie on posing for a picture in front of a window with a building in the background, Andrew Law, johnson ting, a picture,
-# mannerism", "bbox": [-31.329412311315536, 160.6865997314453, 496.19240215420723, 688.1674156188965],
+# {"file_name": "./ffhq-dataset/1111.png","additional_feature": "a person", 
+# "bbox": [-31.329412311315536, 160.6865997314453, 496.19240215420723, 688.1674156188965],
 # "landmarks": [[133.046875, 318], [319.3125, 318], [221.0625, 422], [153.515625, 535], [298.84375, 537]],
-# "insightface_feature_file": "/data/feature_data/images_part0/84634599103.bin"}
+# "insightface_feature_file": "./ffhq-dataset/1111.npy",
+# "stylegan_feature_file": "./ffhq-dataset/1111_style.npy"
 export JSON_FILE="./output_data_modify.json"
 
 
