@@ -70,7 +70,3 @@ If you find this code or our paper useful for your research, please consider cit
   publisher={Elsevier}
 }
 ```
-
-## 📄 License
-The majority of this project is released under the **Apache 2.0 license** as found in the [LICENSE](./LICENSE) file.
-
